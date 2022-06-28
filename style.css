@@ -1,0 +1,33 @@
+.p2 {
+    font-weight: bold;
+}
+
+.test {
+    font-weight: bold;
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer1 {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3.0rem;
+    background-color: #343a40;
+    box-shadow: 0 0 1rem 0 rgb(0, 0, 0, .5);
+    z-index: 5;
+    clear: both;
+    overflow:hidden;
+    color: white;
+}
+
+.titel {
+    color: #00bbffbf; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 62px; 
+    font-weight: 800; 
+    line-height: 72px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase;
+}
