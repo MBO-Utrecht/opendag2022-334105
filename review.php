@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12">
                 <form action="./create.php" method="post">
                     <div class="form-group">
                         <label for="name">Naam</label>
@@ -45,23 +45,32 @@
                     </div>
                     <div class="form-group">
                         <label for="vraag1">1)	Voldoet de open dag en de informatie die je hebt ontvangen aan jouw verwachting? </label>
-                        <input type="text" class="form-control" id="vraag1" aria-describedby="vraag1Help" placeholder="Invoer antwoord vraag 1" name="vraag1"> 
+                        <input type="radio" name="vraag1" id="vraag1" value="O"><span>O</span>
+                        <input type="radio" name="vraag1" id="vraag1" value="V"><span>V</span>
+                        <input type="radio" name="vraag1" id="vraag1" value="G"><span>G</span> 
                     </div> 
                     <div class="form-group">
-                        <label for="vraag2">2) Wat vond je van vakinhoudelijke voorlichting?</label>
-                        <input type="text" class="form-control" id="vraag2" aria-describedby="vraag2Help" placeholder="Invoer antwoord vraag 2" name="vraag2">
+                        <label for="vraag2">2) Wat vond je van vakinhoudelijke voorlichting?</label> <br>
+                        <input type="radio" name="vraag2" id="vraag2" value="O"><span>O</span>
+                        <input type="radio" name="vraag2" id="vraag2" value="V"><span>V</span>
+                        <input type="radio" name="vraag2" id="vraag2" value="G"><span>G</span> 
                     </div>
                     <div class="form-group">
-                        <label for="vraag3">3) Wat vond je van gesprek met studenten?</label>
-                        <input type="text" class="form-control" id="vraag3" aria-describedby="vraag3Help" placeholder="Invoer antwoord vraag 3" name="vraag3">
+                        <label for="vraag3">3) Wat vond je van gesprek met studenten?</label> <br>
+                        <input type="radio" name="vraag3" id="vraag3" value="O"><span>O</span>
+                        <input type="radio" name="vraag3" id="vraag3" value="V"><span>V</span>
+                        <input type="radio" name="vraag3" id="vraag3" value="G"><span>G</span>
                     </div>
                     <div class="form-group">
-                        <label for="vraag4">4) Heb je de schoolsfeer als positief ervaren?</label>
-                        <input type="text" class="form-control" id="vraag4" aria-describedby="vraag4Help" placeholder="Invoer antwoord vraag 4" name="vraag4">
+                        <label for="vraag4">4) Heb je de schoolsfeer als positief ervaren?</label> <br>
+                        <input type="radio" name="vraag4" id="vraag4" value="O"><span>O</span>
+                        <input type="radio" name="vraag4" id="vraag4" value="V"><span>V</span>
+                        <input type="radio" name="vraag4" id="vraag4" value="G"><span>G</span>
                     </div>
                     <div class="form-group">
-                        <label for="vraag5">5) Heb je voor ons nog tips?</label>
-                        <input type="text" class="form-control" id="vraag5" aria-describedby="vraag5Help" placeholder="Invoer antwoord vraag 5" name="vraag5">
+                        <label for="vraag5">5) Heb je voor ons nog tips?</label> <br>
+                        <input type="text" class="form-control" id="vraag5" aria-describedby="vraag5Help" placeholder="Geef hier je tips.." name="vraag5">
+                        
                     </div>
                     <button type="sumbit" class="btn btn-primary">Submit</button>
                     </form></div>
