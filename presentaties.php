@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" href="mboicon2.jpg">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,10 +24,12 @@
       <a class="nav-item nav-link" href="./read.php">Alle reviews</a>
       <a class="nav-item nav-link" href="./info.php">Info</a>
       <a class="nav-item nav-link" href="./presentaties.php">Presentaties</a>
-      
     </div>
   </div>
 </nav>
+<main class="container">
+        <div class="row">
+            <div class="col-12"> 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
        <h2>Waar en hoelaat is elke voorlichting?</h2> <br>
@@ -39,11 +42,10 @@
        <br>
        <br>
        <h2>Wat als ik het lokaal nog steeds niet kan vinden?</h2>
-       <p class="p2">Bij de pagina 'Info' is er een plattegrond weergegeven waar je duidelijk alle lokalen kan zien. Als dat nog steeds niet genoeg is, dan kun je na binnenkomst naar links gaan en het bij de receptie na vragen.</p>
-
-       
+       <p class="p2">Bij de pagina 'Info' is er een plattegrond weergegeven waar je duidelijk alle lokalen kan zien. Als dat nog steeds niet genoeg is, dan kun je na binnenkomst naar links gaan en het bij de receptie na vragen.</p>   
   </div>
 </div>
+</main>
 <footer class="footer1"> <p> ©mbo utrecht <br> 0672849527</p> </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" href="mboicon2.jpg">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,6 +27,9 @@
     </div>
   </div>
 </nav>
+<main class="container">
+        <div class="row">
+            <div class="col-12"> 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
       <h1 class="titel">Welkom bij de pagina voor de open dagen van MBO Utrecht!</h1> <br>
@@ -51,6 +55,7 @@
                 </p>
   </div>
 </div>
+</main>
 <footer class="footer1"> <p> ©mbo utrecht <br> 0672849527</p> </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

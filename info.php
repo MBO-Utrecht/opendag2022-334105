@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" href="mboicon2.jpg">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,10 +27,13 @@
     </div>
   </div>
 </nav>
+<main class="container">
+        <div class="row">
+            <div class="col-12"> 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
              <h2>Wat houdt elke opdleiding in?</h2> <br>       
-                <h4 class="test">• Medewerker ICT support (niveau 2)</h4>
+                <h4 class="opleiding">• Medewerker ICT support (niveau 2)</h4>
                     <p> 
                     Wil jij alles leren over netwerken, computers, elektra en domotica? Vind je het leuk om mensen te helpen bij het oplossen van hun ICT-problemen? Meld je dan aan voor de opleiding Medewerker ICT bij MBO Utrecht.
                     <br>  <p class="p2">- Wat doet een medewerker ICT?</p> 
@@ -40,12 +44,12 @@
                     Oplossen van incidenten
                     Je werkt zelfstandig of in een team en wordt direct aangestuurd door een leidinggevende.
                     Je kunt gaan werken bij een ICT-dienstverlenend bedrijf of op een ICT-afdeling van een bedrijf.</p> <Br>
-                <h4 class="test">• Software Development (niveau 4)</h4>
+                <h4 class="opleiding">• Software Development (niveau 4)</h4>
                     <p>Hou je van programmeren? Droom je ervan om mee te werken aan het bouwen van websites, apps of games en daar later je beroep van te maken? Dat kan! Meld je aan bij de opleiding Software developer bij MBO Utrecht.</p>
                     <p class="p2">- Wat doet een medewerker SoftwareDeveloping?</p>
                     <p>Als (aankomend) softwaredeveloper houd je je bezig met het testen opstellen, uitvoeren en beoordelen van software. Ook begeleidt je teamleden begeleiden en ontwikkel je softwaresystemen ontwikkelen. Tevens beveilig je netwerken en het netwerkverkeer. Je werkt zelfstandig. Je kunt gaan werken bij een ICT-dienstverlenend bedrijf of op de ICT-afdeling van een bedrijf.</p> 
                 <br>
-                <h4 class="test">• Allround medewerker IT systems and devices / Expert IT systems and devices (N3/4)</h4>
+                <h4 class="opleiding">• Allround medewerker IT systems and devices / Expert IT systems and devices (N3/4)</h4>
                     <p>Ben je bereid om mensen te helpen met hun computerproblemen? Lijkt het je leuk om te leren hoe je netwerken moet aanleggen en hardware kan installeren, configureren en beheren? Dan is de opleiding Allround medewerker IT systems and devices misschien wel wat voor jou!<p>
                     <p class="p2">- Wat doet een IT systems and devices</p>
                     <p>Als (aankomend) allround medewerker IT houd je je onder meer bezig met de volgende zaken:    
@@ -61,9 +65,10 @@
                   <p>De open dagen vinden zich plaats op:</p>
                   <p class="p2">- Maandag 3 Juli  (13:00-16:00)<br> - Woensdag 14 Juli  (09:00-11:00) <br>- Donderdag 24 Juli  (10:00-13:00)</p>
                 <h2>De plattegrond</h2>
-                <img src="p3.png">      
+                <img src="p3.png" class="img1">      
   </div>
 </div>
+</main>
 <footer class="footer1"> <p> ©mbo utrecht <br> 0672849527</p> </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
